@@ -1,29 +1,8 @@
-import Header from "../components/layout/Header";
-import Footer from "../components/layout/Footer";
-
-import Hero from "../sections/Hero";
-import About from "../sections/About";
-import Skills from "../sections/Skills";
-import Experience from "../sections/Experience";
-import Projects from "../sections/Projects";
-import Contact from "../sections/Contact";
-
 function Home() {
   return (
-    <>
-      <Header />
-
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Contact />
-      </main>
-
-      <Footer />
-    </>
+    <main>
+      <h1>Portfolio Home Test</h1>
+    </main>
   );
 }
 
